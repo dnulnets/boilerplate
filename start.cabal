@@ -1,0 +1,44 @@
+-- This file has been generated from package.yaml by hpack version 0.20.0.
+--
+-- see: https://github.com/sol/hpack
+--
+-- hash: 22dba165e9b2d7844855d48418df8efa79ca86e70f0c0574a6a29faf460e2716
+
+name:           start
+version:        0.1.0.0
+category:       Web
+homepage:       https://github.com/githubuser/start#readme
+author:         Author name here
+maintainer:     example@example.com
+copyright:      2017 Author name here
+license:        BSD3
+license-file:   LICENSE
+build-type:     Simple
+cabal-version:  >= 1.10
+
+extra-source-files:
+    README.md
+
+executable start
+  main-is: Main.hs
+  hs-source-dirs:
+      src
+  build-depends:
+      base >=4.7 && <5
+    , directory
+    , exceptions
+    , lens
+    , managed
+    , mtl
+    , time
+    , transformers
+    , unix
+  other-modules:
+      Base.Concurrent
+      Base.Log
+      Base.Log.FileHandle
+      Start.Game
+      Start.Settings
+      Start.Types
+      Paths_start
+  default-language: Haskell2010
