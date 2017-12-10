@@ -1,10 +1,14 @@
--- |This module contains the main startup boilerplate for you to easily add
--- additional functionality and get logging right out of the box.
+-- |
+-- Module      : Main
+-- Description : This module contains the main startup boilerplate for you to easily add
+--               additional functionality and get logging right out of the box.
+-- Copyright   : (c) Tomas Stenlund, 2017
+-- License     : BSD 3-Clause
+-- Maintainer  : sample@email.com
+-- Stability   : experimental
+-- Portability : POSIX
 --
--- Written by Tomas Stenlund, Sundsvall, Sweden, 2017-12-10
--- Copyright (c) 2017, Sundsvall, Sweden.
--- See LICENSE file.
---
+
 module Main where
 
 --
